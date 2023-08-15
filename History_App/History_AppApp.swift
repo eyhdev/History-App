@@ -11,7 +11,7 @@ import SwiftUI
 struct History_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(artifacts: sampleArtifacts)
         }
     }
 }
